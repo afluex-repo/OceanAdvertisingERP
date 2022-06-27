@@ -31,6 +31,9 @@
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">Generate Sale Order</li>
                     </ol>
+                    <span style="color:red;">
+                        @TempData["SaleOrderDetails"]
+                    </span>
                 </nav>
             </div>
             <div class="ms-auto">
@@ -257,7 +260,7 @@
                                         else
                                         {
                                             <input type="submit" id="btnAddLine" name="btnAddLine" value="Add Line" class="btn btn-light list-button" onclick="return validateLine();" />
-                                   <input type="submit" id="btnUpdateLine" name="btnUpdateLine" style="display: none" value="Update" onclick="return updateLine();"   class="btn btn-light list-button" />
+                                   <input type="submit" id="btnUpdateLine" name="btnUpdateLine" style="display: none" value="Update" onclick="return updateLine();" class="btn btn-light list-button" />
                                         }
                                     </td>
                                 </tr>
@@ -1057,7 +1060,6 @@
                 success: function (data) {
                     $("#divload").css({ 'display': 'none' });
                     if (data.Result == "1") {
-
                         $("#CityID").html(""); // clear before appending new list
                         $("#CityID").empty();
                         $("#CityID").append(
@@ -1098,6 +1100,7 @@
 
                 if (data.Result == "1") {
 
+                    $('#HSNCode').val(data.HSNCode);
                     $("#MediaTypeID").html("");
                     $("#MediaTypeID").empty();
                     $("#MediaTypeID").append($('<option></option>').val(0).html('Select Media Type'));
