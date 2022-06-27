@@ -140,7 +140,7 @@ namespace FutureFundGlobalERP.Controllers
                 {
                     model.Result = "1";
                     model.ServiceType = ds.Tables[0].Rows[0]["DateFormat"].ToString();
-
+                    model.HSNCode = ds.Tables[0].Rows[0]["HsnCode"].ToString();
                     //Bind Media Type according to the selected Service
                     List<SelectListItem> ddlmediaType = new List<SelectListItem>();
                     //DataSet dsMediaType = model.GetMediaType();
@@ -374,6 +374,8 @@ namespace FutureFundGlobalERP.Controllers
             DataSet ds3 = model.GetServiceList();
             if (ds3 != null && ds3.Tables.Count > 0 && ds3.Tables[0].Rows.Count > 0)
             {
+
+                //model.HSNCode = ds3.Tables[0].Rows[0]["HSNCode"].ToString();
                 foreach (DataRow r in ds3.Tables[0].Rows)
                 {
                     if (count1 == 0)
@@ -541,6 +543,7 @@ namespace FutureFundGlobalERP.Controllers
                 DataSet ds3 = model.GetServiceList();
                 if (ds3 != null && ds3.Tables.Count > 0 && ds3.Tables[0].Rows.Count > 0)
                 {
+                  
                     foreach (DataRow r in ds3.Tables[0].Rows)
                     {
                         if (count2 == 0)
