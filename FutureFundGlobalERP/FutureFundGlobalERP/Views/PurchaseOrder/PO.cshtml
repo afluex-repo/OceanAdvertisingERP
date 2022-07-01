@@ -374,7 +374,10 @@
             $('#CampaignNumber').focus();
             return false;
         }
-
+        if ($('input[type=checkbox]:checked').length == 0) {
+            alert("Please select at least one checkbox");
+            return false;
+        }
         return true;
     }
 
