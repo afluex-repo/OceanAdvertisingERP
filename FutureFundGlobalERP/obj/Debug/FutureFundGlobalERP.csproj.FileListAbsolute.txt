@@ -211,6 +211,5 @@ E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\Future
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\System.Net.Http.Formatting.xml
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\System.Web.Http.xml
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\System.Web.Http.WebHost.xml
-E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\obj\Debug\FutureFundGlobalERP.csprojResolveAssemblyReference.cache
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\obj\Debug\FutureFundGlobalERP.dll
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\obj\Debug\FutureFundGlobalERP.pdb
