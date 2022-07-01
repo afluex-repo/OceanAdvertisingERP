@@ -693,7 +693,7 @@ namespace FutureFundGlobalERP.Controllers
                         {
                             model.Result = "1";
                             model.ServiceType = dsMediaType.Tables[0].Rows[0]["DateFormat"].ToString();
-
+                            model.HSNCode = ds.Tables[0].Rows[0]["HsnCode"].ToString();
                             //Bind Media Type according to the selected Service
                             List<SelectListItem> ddlmediaType = new List<SelectListItem>();
                             //DataSet dsMediaType = model.GetMediaType();

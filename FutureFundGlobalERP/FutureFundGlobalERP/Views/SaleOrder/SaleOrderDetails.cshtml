@@ -491,6 +491,7 @@
                 data: { 'serviceID': serviceID },
                 success: function (data) {
                     $("#divload").css({ 'display': 'none' });
+                    $('#HSNCode').val(data.HSNCode);
                     if (data.ServiceType == "Single") {
                         $('#FromDate').attr("disabled", false);
                         $('#ToDate').attr("disabled", "disabled");
