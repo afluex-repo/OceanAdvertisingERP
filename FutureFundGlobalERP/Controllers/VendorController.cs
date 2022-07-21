@@ -33,6 +33,10 @@ namespace FutureFundGlobalERP.Controllers
 
         public ActionResult AddVendor(string VendorId)
         {
+            if (Session["UserID"] == null)
+            {
+                return RedirectToAction("Login", "home");
+            }
             Master model = new Master();
             int count3 = 0;
             List<SelectListItem> ddlServiceType = new List<SelectListItem>();
@@ -116,6 +120,10 @@ namespace FutureFundGlobalERP.Controllers
         {
             try
             {
+                if (Session["UserID"] == null)
+                {
+                    return RedirectToAction("Login", "home");
+                }
                 if (postedFile != null)
                 {
                     obj.PanImage = "../assets/SoftwareImages/" + Guid.NewGuid() + Path.GetExtension(postedFile.FileName);
