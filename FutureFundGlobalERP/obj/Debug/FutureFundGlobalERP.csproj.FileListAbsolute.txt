@@ -159,7 +159,6 @@ E:\Repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\Sy
 E:\Repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\System.Web.Http.WebHost.xml
 E:\Repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\obj\Debug\FutureFundGlobalERP.dll
 E:\Repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\obj\Debug\FutureFundGlobalERP.pdb
-E:\Repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\obj\Debug\FutureFundGlobalERP.csprojResolveAssemblyReference.cache
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\ApplicationInsights.config
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\roslyn\csc.exe
 E:\SachinMishraProject\repository\OceanAdvertisingERP\FutureFundGlobalERP\FutureFundGlobalERP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
